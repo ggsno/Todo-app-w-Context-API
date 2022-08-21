@@ -19,7 +19,7 @@ const Login = () => {
           type="email"
           {...inputEmail}
           isValid={isValidEmail}
-          invalidMessage="@와 .를 포함한 이메일을 입력해주세요"
+          invalidMessage="@를 포함한 이메일을 입력해주세요"
           required
         />
         <S.Input

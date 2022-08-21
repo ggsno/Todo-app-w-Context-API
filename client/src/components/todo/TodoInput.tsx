@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { useTodoContext } from "../../context/useTodoContext";
 import { GreenButton } from "../common/Button";
-import useTodo from "./useTodo";
+import useTodo from "./hooks/useTodo";
 
 const TodoInput = () => {
   const { inputCreateTodo, handleCreate } = useTodo(useTodoContext());

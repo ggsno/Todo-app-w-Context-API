@@ -1,12 +1,12 @@
 import { FormEvent } from "react";
-import { TodoContextProps } from "../../context/useTodoContext";
-import useInput from "../../hooks/useInput";
+import { TodoContextProps } from "../../../context/useTodoContext";
+import useInput from "../../../hooks/useInput";
 import {
   fetchCreateTodo,
   fetchDeleteTodo,
   fetchUpdateTodo,
-} from "../../services/api/todoAPI";
-import { Todo } from "../../services/model/todo";
+} from "../../../services/api/todoAPI";
+import { Todo } from "../../../services/model/todo";
 
 const useTodo = ({ todos, setTodos }: TodoContextProps) => {
   const inputCreateTodo = useInput("");

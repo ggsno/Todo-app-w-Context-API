@@ -25,7 +25,7 @@ const TodoContainer = () => {
       <TodoInput />
       <S.ItemContainer>
         {todos.length === 0 ? (
-          <div>할 일이 없습니다. 너무 좋아. </div>
+          <div>할 일이 없습니다. 😎 </div>
         ) : (
           <>
             {todos.map(({ id, ...props }) => (

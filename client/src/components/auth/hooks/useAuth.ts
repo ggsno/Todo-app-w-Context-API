@@ -56,7 +56,7 @@ const useAuth = () => {
 
   const checkValidEmail = () => {
     const email = inputEmail.value;
-    return /@/.test(email) && /\./.test(email);
+    return /@/.test(email);
   };
 
   const checkValidPassword = () => {
