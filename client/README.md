@@ -75,9 +75,11 @@ https://user-images.githubusercontent.com/46833758/185788115-b9ff1462-3f76-4414-
 
 ## 사용한 프레임워크 및 라이브러리
 
-### axios, react-router
+### axios
+
 - 구현의 편의를 위함
-- axios interceptor로 
+    - 토큰이 필요한데 없는 request를 interceptor를 이용해 한곳에서 걸러줌
+    - instance로 비슷한 api들을 묶어서 이용
 
 ### styled-components
 
