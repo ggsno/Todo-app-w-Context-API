@@ -3,8 +3,7 @@ import storage from "../../utils/storage";
 import { Todo, TodoInput } from "../model/todo";
 
 const instance = axios.create({
-  baseURL:
-    "https://5co7shqbsf.execute-api.ap-northeast-2.amazonaws.com/production/todos/",
+  baseURL: "https://n38lcff1wk.execute-api.ap-northeast-2.amazonaws.com/todos/",
 });
 
 instance.interceptors.request.use(
